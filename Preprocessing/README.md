@@ -44,3 +44,5 @@ scipy.misc.imresize()
 ```
 An excerpt of the CSV:
 ![CSV](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/CSV.png)
+
+![CSV](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/SatelliteImageExamples.PNG)
