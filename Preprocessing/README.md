@@ -48,5 +48,5 @@ The 10,000 satellite images were resized from 1280 x 1280 to 200 x 200 using Pyt
 scipy.misc.imresize()
 ```
 
-## Examples of Proccessed Records in Dataset
+## Examples of Proccessed Records in Dataset 
 ![SatteliteImageExamples](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/SatelliteImageExamples.PNG)
