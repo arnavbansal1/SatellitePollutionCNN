@@ -5,7 +5,6 @@ First, a list of 57 cities, varying in size, population, location, and air quali
 After running the full version of the above code, 10,000 satellite images were downloaded and a CSV of 10,000 air pollution queries was generated.  The data collection process took 2 hours.
 
 The 10,000 satellite images were resized from 1280 x 1280 to 200 x 200 using Python’s
-
 ```python
 scipy.misc.imresize()
 ```
