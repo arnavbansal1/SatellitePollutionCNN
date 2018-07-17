@@ -1,8 +1,8 @@
 # SatellitePollutionCNN
 
-![Methodology](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/Methodology.png)
-
 Predicting Air Pollution Levels from Satellite Images Using Deep Convolutional Neural Networks
+
+![Methodology](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/Methodology.png)
 
 TLDR: A novel algorithm to predict air pollution levels with state-of-art accuracy using deep learning and GoogleMaps satellite images.
 
