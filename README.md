@@ -1,6 +1,6 @@
 # SatellitePollutionCNN
 
-![Methodology](../master/Preprocessing/methodology.png)
+![Methodology](https://imgur.com/4FHVBCA)
 
 Predicting Air Pollution Levels from Satellite Images Using Deep Convolutional Neural Networks
 
