@@ -42,3 +42,5 @@ The 10,000 satellite images were resized from 1280 x 1280 to 200 x 200 using Pyt
 ```python
 scipy.misc.imresize()
 ```
+An excerpt of the CSV:
+![CSV](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/CSV.png)
