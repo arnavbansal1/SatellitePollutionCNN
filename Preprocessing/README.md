@@ -41,7 +41,7 @@ do {
 After running the full version of the above code, 10,000 satellite images were downloaded and a CSV of 10,000 air pollution queries was generated.  The data collection process took 2 hours.
 
 An excerpt of the CSV:
-![CSV](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/CSV.png)
+![CSV](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Images/CSV.png)
 
 The 10,000 satellite images were resized from 1280 x 1280 to 200 x 200 using Python’s
 ```python
@@ -49,4 +49,4 @@ scipy.misc.imresize()
 ```
 
 ## Examples of Proccessed Records in Dataset 
-![SatteliteImageExamples](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Preprocessing/SatelliteImageExamples.PNG)
+![SatteliteImageExamples](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Images/SatelliteImageExamples.PNG)
