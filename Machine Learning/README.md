@@ -2,8 +2,6 @@
 
 Deep learning models that achieve state-of-the-art on predicting air pollution levels were developed in Keras using Python and trained on a Titan X Pascal GPU.  Over 20 variations of deep convolutional neural networks were developed and optimized by varying one of many hyperparameters, including the number of convolutional layers, number of maxpool layers, size of convolutional layers, use of dropout, and use of data augmentation.  In the end, one model achieved an accuracy rate of 85.15% in binary classification of pollution, and another model achieved an accuracy rate of 72.70% in 10-class classification of pollution.  These models achieve state-of-the-art in this task while using a novel method that is **reliable, scalable, standardized, not limited, inexpensive, and simple**.  This novel research demonstrates that satellite images, which are inexpensive and ubiquitous, are accurate in predicting air pollution.
 
-![Results](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Images/Results.png)
-
 A basic, high-level excerpt of the deep convolutional neural networks code using Keras in Python:
 
 ```python
@@ -55,3 +53,12 @@ A variety of models were trained to predict the BAQI using the satellite images.
     * The model may also consider close or almost-correct values as wrong, especially as the number of categories approaches the data variance
 
 The 15 models were trained on a Titan X Pascal GPU, with training time varying between 0.25 and 1.25 hours.
+
+![Results](https://github.com/arnavbansal1/SatellitePollutionCNN/blob/master/Images/Results.png)
+
+* For most of the models, the training and validation accuracies were close in value, indicating the models were fit well.  Some of the 10-class models overfit, with larger training accuracies than validation accuracies.
+* As the number of categories increased, the validation accuracy decreased.
+* The effect of data augmentation in the models was unclear, as the 5-class and 101-class models performed better with data augmentation, but the 2-class and 10-class models performed worse with it.
+* Models with convolutional layers of size 16, 32, and 64 performed better than those with 32, 64, and 128, which performed better than those with 16, 16, and 16.
+* Models with dropout values of 0.5 performed better than those with 0.25.
+* Models with 3 dense layers performed better than those with 2, which performed better than those with 1.
