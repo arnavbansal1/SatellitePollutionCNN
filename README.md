@@ -11,6 +11,10 @@ While it has been well-recognized that air pollution can be a significant proble
 ## Air Pollution
 
 **Leading environmental threat** to public health
+
 Linked to **6.5 millions deaths** worldwide in 2015
+
 **92% of people** worldwide are exposed to unsafe air pollution levels
+
 Exposure causes **heart disease, lung disease, stroke, and premature death**
+
