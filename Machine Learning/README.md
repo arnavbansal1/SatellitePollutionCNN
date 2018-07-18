@@ -2,6 +2,8 @@
 
 Deep learning models that achieve state-of-the-art on predicting air pollution levels were developed in Keras using Python and trained on a Titan X Pascal GPU.  Over 20 variations of deep convolutional neural networks were developed and optimized by varying one of many hyperparameters, including the number of convolutional layers, number of maxpool layers, size of convolutional layers, use of dropout, and use of data augmentation.  In the end, one model achieved an accuracy rate of 85.15% in binary classification of pollution, and another model achieved an accuracy rate of 72.70% in 10-class classification of pollution.  These models achieve state-of-the-art in this task while using a novel method that is **reliable, scalable, standardized, not limited, inexpensive, and simple**.  This novel research demonstrates that satellite images, which are inexpensive and ubiquitous, are accurate in predicting air pollution.
 
+
+
 A basic, high-level excerpt of the deep convolutional neural networks code using Keras in Python:
 
 ```python
