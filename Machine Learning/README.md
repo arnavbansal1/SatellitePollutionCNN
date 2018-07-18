@@ -21,29 +21,35 @@ model.add(Dense(2, activation ='softmax’))
 
 A variety of models were trained to predict the BAQI using the satellite images.  The following hyperparameters were varied and optimized:
 
-  * Number of Convolutional Layers (1, 2, 3, 4, 5, 6)
+  * **Number of Convolutional Layers** (1, 2, 3, 4, 5, 6)
+      ------------------------------
     * Allows for prediction of more complex features
     * Usually increases accuracy but also overfitting
 
-  * Number of MaxPooling Layers (1, 2, 3, 4, 5, 6)
+  * **Number of MaxPooling Layers** (1, 2, 3, 4, 5, 6)
+      ---------------------------
     * Allows for finding features on different scales
     * Allows for improved efficiency, via reduction of image resolution 
     * Usually increases accuracy
 
-  * Size of Convolutional Layers (16, 32, 64, 128, 256, 512)
+  * **Size of Convolutional Layers** (16, 32, 64, 128, 256, 512)
+      ----------------------------
     * Increases the number of features that can be detected
     * Usually increases accuracy but also overfitting
 
-  * Dropout (0 – i.e. not used, 0.25, 0.5)
+  * **Dropout** (0 – i.e. not used, 0.25, 0.5)
+      -------
     * Reduces overfitting by randomly excluding some nodes during training, as this prevents feature detection from relying on any specific nodes
     * Usually decreases accuracy but increases validation accuracy
 
-  * Data Augmentation (Not used, Used)
+  * **Data Augmentation** (Not used, Used)
+      -----------------
     * Allows for finding features that are invariant to transformations
     * Easier and more memory efficient than manual generation of more data
     * Usually increases accuracy for object detection problems
 
-  * Output Loss Estimators
+  * **Output Loss Estimators**
+      ----------------------
     * 2-class (binary), 5-class, 10-class, and 101-class cross-entropy
     * Number of categories (intervals of the 0 to 100 scale) can indicate the model’s accuracy
     * The model may also consider close or almost-correct values as wrong, especially as the number of categories approaches the data variance
